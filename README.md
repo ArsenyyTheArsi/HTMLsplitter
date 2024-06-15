@@ -11,8 +11,11 @@ gcc -o html_split main.c message_split.c
 ## Использование
 
 Запустите программу с указанием максимальной длины фрагмента и пути к HTML файлу через аргументы командной строки:
+
 ./html_split -m <max_len> <html_file>
+
 <max_len>: Максимальная длина каждого фрагмента.
+
 <html_file>: Путь к HTML файлу, который нужно разделить.
-Пример
-./html_split -m 3072 ./test-1.html
+
+Пример: ./html_split -m 3072 ./test-1.html
