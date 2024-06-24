@@ -1,10 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <function.h>
 #include <assert.h>
-
-#define MAX_TAG_LEN 100
-#define MAX_FILE_NAME_LEN 256
 
 // Структура для хранения информации о теге
 typedef struct Tag {
