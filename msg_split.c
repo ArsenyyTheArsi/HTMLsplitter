@@ -1,4 +1,4 @@
-#include <functions.h>
+#include "functions.h"
 
 int msg_split(FILE* sourceHTML, int max_len) {
     fseek(sourceHTML, 0, SEEK_SET);
