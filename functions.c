@@ -1,4 +1,4 @@
-#include <functions.h>
+#include "functions.h"
 
 // Function to add open tags to the start of the next fragment
 void next_fragment_tags(char output[], char writtenTags[1024][MAX_TAG_LEN], int countTags, int *currentString_len, int *currentChar_index) {
