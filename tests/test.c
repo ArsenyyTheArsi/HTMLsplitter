@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "msg_split.h"
 #include "functions.h"
-#include <locale.h>
 
 // create temp file 
 void ftemp_create(const char* filename, const char* content) {
@@ -76,7 +75,6 @@ void EmptyFile() {
 }
 
 int main() {
-    setlocale(LC_ALL, "rus");
 
     WithoutTag();
     longTag();
